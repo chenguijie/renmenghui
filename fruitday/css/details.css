@@ -1,0 +1,910 @@
+header{
+	width:100%;
+	height:151px;
+}
+header .nav{
+	width:100%;
+	height:30px;
+	background: #eee;
+}
+nav #top_nav .nav_left .li1_hide {
+	z-index: 1000;
+}
+/*头部导航样式见common.css*/
+header .section{
+	width:100%;
+	height:120px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 8px rgba(230,230,230,0.75);
+    border-bottom: 1px solid #f1f1f1;
+}
+/*头部内容区样式见common.css*/
+
+main .message{
+	margin-top: 50px;
+	height: 570px;
+}
+main .message .name{
+	font: 14px/100% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    margin-bottom: 20px;
+    width:100%;
+    line-height: 24px;
+    font-size: 14px;
+}
+main .message .name a{
+	color:#55A532;
+}
+main .message .message_left{
+	width:56%;
+	height: 490px;
+	float: left;
+	position: relative;
+}
+.message .message_left .small{
+	float: left;
+    width: 20%;
+    height: 450px;
+   margin-right: 1%;
+}
+.message .message_left .small li{
+	width:125px;
+	height:125px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.message .message_left .small li a img{
+	width:100%;
+	height:100%;
+}
+.message .message_left .small li a p{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	background:rgba(204, 204, 204, 0.5);
+	border:1px solid #f6af0d;
+	display: none;
+}
+.message .message_left .small li a .p1{
+	display: block;
+}
+.message .message_left .small li a span{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.message .message_left .big{
+	float: left;
+    width: 75%;
+    height: 490px;
+    position: relative;
+}
+.message .message_left .big .mask{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.message .message_left .big .position_box{
+	width:150px;
+	height:100px;
+	background: #CCCCCC;
+	opacity: 0.3;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 99;
+	display: none;
+	border:1px solid #ccc;
+}
+#b_box{
+	width:500px;
+	height:500px;
+	position: relative;
+	top:-500px;
+	left:615px;
+	overflow: hidden;
+	z-index: 10;
+	display: none;
+}
+#all_box{
+	width:980px;
+	height:980px;
+	position:absolute;	
+	left:0;	
+	top: 0;			
+}
+#all_box img{
+	width: 100%;
+	height: 100%;	
+}
+
+
+
+.message .message_left .big li{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+.message .message_left .big li a {
+	width: 100%;
+	height: 100%;
+}
+.message .message_left .big li a img{
+	width:100%;
+	height:100%;
+}
+main .message .message_right{
+	width:40%;
+	height:490px;
+	margin-left: 3%;
+	margin-top: 20px;
+	float: left;
+}
+main .message .message_right .name{
+	width:100%;
+}
+.message .message_right .name h3{
+	font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #555555;
+    line-height: 30px;
+    font-size: 18px;
+}
+.message .message_right .name p{
+	height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 40px;
+    color: #999;
+}
+.price{
+	border-bottom: 1px solid #dddddd;
+}
+
+.hide img{
+	width:100%;
+	height:100%;	
+}
+.price .good_price{
+	position: relative;
+    width: 100%;
+    height: 75px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat 0 -48px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.price .good_price .price_left {
+	position: absolute;
+	top:25px;
+	left:20px;
+}
+.price .good_price .price_left span{
+	width: 124px;
+    font: 24px/100% "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #64a131;
+    font-weight: bold;
+}
+.price .good_price .price_left h5{
+	display: inline-block;
+	font: 14px/200% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #999999;
+    width: 60px;
+}
+.price .good_price .price_right{
+	position: absolute;
+	right: 0;
+	top: 0;
+    width: 56px;
+    height: 26px;
+    margin-top: 25px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat -64px -8px;
+}
+.price .good_price .price_right:hover img{
+	display: block;
+}
+
+.price .good_price .price_right img{
+	position: absolute;
+	left:-174px;
+	top:-100px;
+	width:200px;
+	height:200px;
+	display: none;
+}
+.price .information h5{
+	width:50px;
+	height:24px;
+	line-height: 24px;
+	font: 14px/200% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #999999;
+	display: inline-block;
+}
+.price .information{
+	margin-bottom:20px;
+}
+.price .information span{
+	width:50px;
+	height:24px;
+	line-height: 24px;
+	background: #63A35C;
+	color:#fff;
+	text-align: center;
+	display: inline-block;
+}
+.price .send{
+	margin-bottom:20px;
+}
+.price .send h5{
+	width:50px;
+	height:24px;
+	line-height: 24px;
+	font: 14px/200% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #999999;
+	display: inline-block;
+}
+.price .send .city{
+	width:60px;
+	height:30px;
+	line-height: 30px;
+	font: 14px/200% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #999999;
+	display: inline-block;
+	border:1px solid #ccc;
+	text-align: center;
+}
+.price .send .city p{
+	width:30px;
+	line-height: 30px;
+	display: inline-block;
+	color:#333333;
+}
+.price .send .city i{
+    color: #999999;
+	display: inline-block;
+	font-size: 20px !important;
+}
+.hide{
+	width: 310px;
+	height: 140px;
+	padding: 20px;
+	position: absolute;
+	z-index: 10;
+	background: #fff;
+	box-shadow: 0 0 10px #CCCCCC;
+	display: none;
+}
+.hide .name .name_left{
+	width: 80px;
+	height: 10px;
+	padding: 10px;
+	border: 2px solid #55A532;
+	border-bottom: none;
+	text-align: center;
+	line-height: 14px;
+	float: left;
+}
+.hide .name .name_right{
+	width: 200px;
+	height: 30px;
+	border-bottom:2px solid #55A532;
+	float: left;
+	position: relative;
+}
+.hide .name .name_right a{
+	width: 20px;
+	display: inline-block;
+	height: 20px;
+	position: absolute;
+	right: -25px;
+	top: -20px;
+	border:1px solid #ccc;
+	border-radius:50%;
+	background: #555555;
+	box-shadow: 0 0 2px #000000;
+}
+.hide .name .name_right a span{
+	width: 80%;
+	height:80%;
+	margin: auto;
+	font-size: 26px;
+	color: #fff;
+	line-height: 72%;
+}
+.hide ul{
+	padding: 10px;
+	height: 100px;
+	margin-top: 10px;
+}
+.hide ul li{
+	float: left;
+
+}
+.hide ul li a{
+	float: left;
+	color: #CCCCCC;
+	width: 58px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.hide ul li a:hover{
+	color:#55A532;
+}
+.price .send span{
+	color:#55A532;
+	margin-left: 5px;
+}
+.price .num{
+	margin-bottom:20px;
+	height:30px;
+}
+.price .num h5{
+	width:50px;
+	height:24px;
+	line-height: 24px;
+    color: #999999;
+	display: inline-block;
+	float: left;
+	font: 14px/200% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+}
+.price .num .change{
+	width:80px;
+	height:24px;
+	line-height: 24px;
+    color: #999999;
+	display: inline-block;
+	border:1px solid #ddd;
+	float: left;
+}
+.price .num .change a{
+	text-align: center;
+	width:30px;
+	line-height: 24px;
+	display: inline-block;
+	background: #eee;
+	float: left;
+	color:#000000;
+}
+.price .num .change span{
+	text-align: center;
+	width:20px;
+	line-height: 24px;
+	display: inline-block;
+	float: left;
+}
+.price .buy{
+	margin-bottom: 20px;
+	width:60%;
+	margin-left: 100px;
+}
+.price .buy a {
+	display: inline-block;
+	width: 40%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	border-radius:5px;
+	margin-right: 10px;
+}
+.price .buy a:nth-child(1){
+	color: #7daf57;
+    background: #f5ffed;
+    border: 1px solid #64a131;
+}
+.price .buy a:nth-child(2){
+	color: #eff4ec;
+    background: #64a131;
+}
+.comment{
+	margin-top: 20px;
+}
+.comment div{
+	width: 50%;
+    margin-bottom: 10px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+.comment div h5{
+	display: inline-block;
+	width: 33%;
+	font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+    margin-right: 20px;
+    color: #999;
+}
+.comment div span {
+	width: 60%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #555;
+    height: 20px;
+    line-height: 20px;
+}
+.comment div span img{
+	display: inline;
+}
+.review{
+	margin-top: 60px;
+}
+.review .review_left{
+	width: 70%;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	float: left;
+}
+.review_name{
+	width: 100%;
+}
+.review .review_left .node1{
+	display: block;
+}
+.review_name .top{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	background: #f1f1f1;
+	position: relative;
+}
+.review_name .top .active1{
+	width: 137px;
+	height: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #55A532;
+}
+.review_name .top p:nth-child(1){
+	background: #fff;
+}
+.review_name .top p,.review_name .top a{
+	display: inline-block;
+	width: 137px;
+	height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font: 16px/200% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color: #555555;
+    float: left;
+    border-right:1px solid #ccc;
+}
+.review_name .top p span{
+	color:#55A532;
+}
+.review_name .top .car{
+	float:right;
+	background: #64a131;
+	color: #FFFFFF;
+}
+.review_name .Introduction{
+	width: 100%;
+}
+.Introduction div{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.Introduction div:nth-child(2n-1){
+	background: #f1f1f1;
+}
+.Introduction  h4{
+	display: inline-block;
+	width: 10%;
+    text-align: left;
+    padding: 9px 12px;
+    border-right: 1px solid #ccc;
+    font-family: Calibri,Arial,Helvetica,sans-serif;
+    font-size:14px ;
+}
+.Introduction  span{
+	width: 90%;
+    text-align: left;
+    padding: 9px 12px;
+    color:#a7a3a3;
+    font-size: 14px;
+}
+.review_pic{
+	width: 100%;
+}
+.review_pic img{
+	width: 100%;
+}
+.review .review_left .node2{
+	display: none;
+	width: 100%;
+}
+.review .review_left .node2 .node2_top{
+	width: 100%;
+    padding-top: 46px;
+    padding-bottom: 50px;
+}
+.review .review_left .node2 .node2_top div{
+	float: left;
+}
+.review .review_left .node2 .node2_top .detail1{
+	width: 20%;
+    height: 100px;
+    padding: 21px 20px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.review .review_left .node2 .node2_top .detail1 .p1{
+	font: 40px/100% 'Hiragino Sans GB W6','Microsoft YaHei';
+    color: #f6ab00;
+}
+.review .review_left .node2 .node2_top .detail1 .p2{
+    font: 14px/100% 'Hiragino Sans GB W6','Microsoft YaHei';
+    margin-top: 8px;
+}
+.review .review_left .node2 .node2_top .detail2{
+	width: 40%;
+    padding: 11px 38px;
+    padding-bottom: 0px;
+    border-right: 1px solid #ccc;
+}
+.review .review_left .node2 .node2_top .detail2 .word{
+	font: 14px/100% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.node2 .node2_top .detail2 .word span{
+	font: 14px/100% 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    width: 20%;
+    margin-bottom: 16px;
+    float: left;
+}
+.node2 .node2_top .detail2 .word .plan{
+	width: 40%;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #dddddd;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.node2 .node2_top .detail2 .word .plan .color{
+	height: 14px;
+    border-radius: 10px;
+    background-color: #f6ab00;
+    width:99%;
+}
+.review .review_left .node2 .node2_top .detail3{
+	width: 20%;
+    padding:20px 10px 0 10px;
+    text-align: center;
+}
+.review .review_left .node2 .node2_top .detail3 p{
+	font: 14px/200% 'Hiragino Sans GB W6','Microsoft YaHei',sans-serif;
+}
+.review_left .node2 .user .user_top{
+	width: 100%;
+    height: 38px;
+    font: 14px/100% 'Hiragino Sans GB W6','Microsoft YaHei',sans-serif;
+    color: #555555;
+    line-height: 38px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    background-color: #eeeeee;
+}
+.review_left .node2 .user .user_top ul{
+	width: 100%;
+}
+.review_left .node2 .user .user_top ul li{
+	padding:0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    float: left;
+}
+.user .user_top ul li .fipion{
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius:50%;
+    box-shadow:  0 0 2px #ccc;
+}
+.mode{
+	width: 100%;
+}
+.mode .mode1{
+	width: 100%;
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.mode1 .mode_left{
+	width: 20%;
+    padding-left: 30px;
+    float: left;
+}
+.mode1 .mode_left img{
+	width: 88px;
+    height: 88px;
+}
+.mode1 .mode_left p{
+	padding-top: 12px;
+    text-align: center;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei';
+    padding-bottom: 14px;
+}
+.mode1 .mode_right {
+	padding-top: 10px;
+    width: 70%;
+    float: left;
+}
+.mode1 .mode_right ul{
+	width: 100%;
+}
+.mode1 .mode_right ul li{
+	width: 100%;
+    margin-bottom: 15px;
+}
+.mode1 .mode_right ul li .cont{
+	width: 10%;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.mode1 .mode_right ul li p{
+	float: left;
+}
+.mode1 .mode_right ul li .start .star{
+	display: inline-block;
+    width: 16px;
+    height: 15px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat -7px -167px;
+}
+.mode1 .mode_right ul li img{
+	width: 100px;
+    height: 75px;
+    margin-right: 3px;
+    overflow: hidden;
+}
+.review .review_right{
+	width: 23%;
+	float: left;
+	margin-left: 3%;
+}
+.bottom{
+	width: 100%;
+	text-align: center;
+    margin: 0 auto;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-color: #f1f1f1;
+}
+
+.pagination a {
+    text-decoration: none;
+	color: #15B;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 0.1em 0.4em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #26B;
+    color: #fff;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+/*分页样式*/
+.review_right .history{
+	width:100%;
+	min-height: 1000px;
+	float: left;
+}
+.history .name{
+	width:100%;
+	padding:10px 0;
+	height:20px;
+	line-height: 20px;
+	color:#64a131;
+	font-size: 16px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.history ul{
+	width:100%;
+	overflow: hidden;
+}
+.history ul .small_good{
+	width: 260px;
+    height: 70px;
+    padding: 13px 0 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.history ul .small_good a{
+	width: 100%;
+    height:100%;
+    display: block;
+}
+.history ul .small_good a .small-pic{
+	float: left;
+}
+.history ul .small_good a .small-pic img{
+	width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+.history ul .small_good a .small-mesg{
+	float: right;
+	/*padding-left: 10px;
+	padding-top: 10px;*/
+}
+.history ul .small_good a .small-mesg .name{
+	border: none;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    line-height: 20px;
+    color: #555555;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.history ul .small_good a .small-mesg p{
+	font-size: 14px;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    line-height: 20px;
+    color: #999999;
+}
+.history ul .small_good a .small-mesg .price{
+	text-decoration: line-through;
+}
+
+
+#footer{
+	min-height:400px;
+	width:100%;
+}
+
+/*脚部样式见common.css*/
+
+#aside{
+	width:35px;
+	height:108px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+aside{
+	width:35px;
+	height:108px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	display: block;
+}
+/*侧边栏样式见common.css*/
+#gdialog{
+	width: 523px;
+	height:287px;
+	margin-left: -180px;
+	margin-top: -75px;
+	color: #fff;
+	border: 2px solid #b6b6b6 ;
+	border-radius: 10px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    background:#fff;
+    display: none;
+    z-index: 9999999;
+}
+#gdialog .shop-top{
+	height: 40px;
+    padding-right: 17px;
+    background-color: #eaeaea;
+    border-radius: 10px 10px 0 0;
+}
+#gdialog .shop-top .cha{
+	width: 26px;
+	height:26px;
+	float: right;
+	padding-top: 7px;
+}
+#gdialog .shop-context{
+	background-color: #fff;
+	width: 100%;
+}
+#gdialog .shop-context .name{
+	padding: 28px 90px 0;
+    margin-bottom: 22px;
+}
+#gdialog .shop-context .name .suc{
+	    width: 60px;
+    height: 68px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat -8px -247px;
+    float: left;
+}
+#gdialog .shop-context .name .adds{
+	    font-size: 30px;
+    margin: 13px 0;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #555;
+    white-space: nowrap;
+    padding-left: 20px;
+    float: left;
+}
+#gdialog .shop-context .row2{
+	font-size: 18px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #999;
+    white-space: nowrap;
+    padding-left: 4px;
+    text-align: center;
+}
+#gdialog .shop-context .row2 em{
+	    color: #f6ab00;
+    font-style: normal;
+}
+#gdialog .shop-context .buy{
+	padding: 28px;
+    padding-bottom: 25px;
+}
+.shop-context .buy .fr-buy{
+	    margin-right: 11px;
+    margin-left: 70px;
+    float: left;
+}
+.shop-context .buy .fr-buy a{
+	width:147px;
+	height:40px;
+	border-radius:4px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	    color: #64a131;
+    background: #f5ffed;
+    border: 1px solid #64a131;
+}
+.shop-context .buy .fr-add a{
+	text-align: center;
+	line-height: 40px;
+	width:147px;
+	height:40px;
+	border-radius:4px;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	    color: #eff4ec;
+    background: #64a131;
+    border-color: #64a131;
+}
+#mask{
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    display: none;
+}
+
+/*弹出窗*/

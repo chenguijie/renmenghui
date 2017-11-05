@@ -1,0 +1,409 @@
+header{
+	width:100%;
+	height:151px;
+}
+header .nav{
+	width:100%;
+	height:30px;
+	background: #eee;
+}
+
+/*头部导航样式见common.css*/
+header .section{
+	width:100%;
+	height:120px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 8px rgba(230,230,230,0.75);
+    border-bottom: 1px solid #f1f1f1;
+}
+/*头部内容区样式见common.css*/
+
+main{	
+	width:100%;
+}
+main .screen{
+	min-height: 215px;
+	padding-top: 24px;
+}
+.kind{
+	width: 100%;
+	height:50px;
+    padding-bottom: 6px;
+    padding-top: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.yieldly,.specification,.sort{
+	width: 100%;
+	height:30px;
+    padding-bottom: 6px;
+    padding-top: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.sort .kind_right{
+	background: #f0f0f0;
+}
+.sort{
+	border-bottom: none;
+}
+h5{
+	color: #999999;
+    line-height: 24px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    margin-right: 20px;
+    font-size: 14px;
+    float: left;
+}
+.kind_list{
+	width:94%;
+    float: left;
+}
+.kind_list .kind_left{
+	float: left;
+	line-height: 24px;
+	width:3%;
+	margin-right: 2%;
+}
+.kind_list .kind_left a{
+	display: inline-block;
+	background: #64a131;
+	color:#FFFFFF;
+	width:30px;
+	text-align: center;
+}
+.kind_list .kind_right{
+	width:95%;
+	float: left;
+	
+}
+.kind_list .kind_right a{
+	line-height: 24px;
+	display: inline-block;
+	margin-right: 10px;
+	white-space: nowrap;
+	font-size: 14px;
+	color:#333333;
+}
+
+/*商品筛选列表部分*/
+.show{
+	margin-top: 20px;
+}
+.show .good_list{
+	width:80%;
+	min-height: 1000px;
+	float: left;
+}
+.show .good_list ul{
+	width:100%;
+	height:100%;
+}
+.show .good_list ul li{
+	position: relative;
+    float: left;
+    width: 23%;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;	
+}
+.show .good_list ul>li>a{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.show .good_list ul li img{
+	margin-bottom: 5px;
+	width: 100%;
+}
+.show .good_list ul li p{
+	width:200px;
+	height:24px;
+	line-height: 24px;
+	color: #333333;
+	padding:0 10px;
+	font-size: 14px;
+	display: inline-block;
+}
+.show .good_list ul li p span{
+	float: right;
+	color:#CCCCCC;	
+}
+.show .good_list .amount{
+	padding:0 10px;
+	width:90%;
+	height:24px;
+	margin: 5px 0;
+	position: relative;
+}
+.show .good_list .amount span{
+	float: none;
+	display: inline-block;
+	width: 30px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	border:1px solid #CCCCCC;
+	float: left;
+}
+.show .good_list .amount .s-che{
+	float: right;
+	/*position: absolute;
+    top: -6px;
+    right: 11px;*/
+    width: 34px;
+    height: 34px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat;
+    background-position: -517px -243px;
+}
+.show .good_list ul li .mask{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	box-shadow: 0 0 30px #CCCCCC;
+	display: none;
+	z-index: 1;
+}
+.show .fiftle{
+	width:20%;
+	min-height: 1000px;
+	float: left;
+}
+.show .fiftle .accordion{
+	width: 100%;
+	min-height: 200px;
+}
+.show .fiftle .accordion>div{
+	width:90%;
+	padding:10px 5%;
+	box-shadow: 0 0 5px #ccc;
+	margin-bottom: 10px;	
+	height: 24px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.show .fiftle .accordion>div .spread{
+	float: left;	
+}
+.fiftle .accordion>div  .spread_list{
+	width: 100%;
+}
+.fiftle .accordion>div  .spread_list ul{
+	width: 100%;
+	margin: 40px auto;
+	border-top: 1px solid #ccc;
+	margin-bottom: 0;
+}
+.fiftle .accordion>div .spread_list ul li{
+	width: 90%;
+	padding-left: 10%;
+	line-height: 20px;
+	height: 20px;
+	margin-top: 10px;
+	border-radius:10px;
+}
+.fiftle .accordion>div .spread_list ul li:hover{
+	background: #eee;
+	color:#55A532;
+}
+.show .fiftle .accordion>div .unfold{
+	float: right;
+	font-size: 20px;	
+}
+.show .fiftle .accordion>div{
+	width:90%;
+	padding:10px 5%;	
+}
+.show .history{
+	width:100%;
+	min-height: 400px;
+}
+.show .history .name{
+	width:100%;
+	padding:10px 0;
+	height:20px;
+	line-height: 20px;
+	color:#64a131;
+	font-size: 16px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.history ul{
+	width:100%;
+	overflow: hidden;
+}
+.history ul .small_good{
+	width: 260px;
+    height: 70px;
+    padding: 13px 0 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.history ul .small_good a{
+	width: 100%;
+    height:100%;
+    display: block;
+}
+.history ul .small_good a .small-pic{
+	float: left;
+}
+.history ul .small_good a .small-pic img{
+	width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+.history ul .small_good a .small-mesg{
+	float: right;
+	padding-left: 10px;
+}
+.history ul .small_good a .small-mesg .name{
+	border: none;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    line-height: 20px;
+    color: #555555;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.history ul .small_good a .small-mesg p{
+	font-size: 14px;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    line-height: 20px;
+    color: #999999;
+}
+.history ul .small_good a .small-mesg .price{
+	text-decoration: line-through;
+}
+/*商品展示列表*/
+
+#footer{
+	min-height:400px;
+	width:100%;
+}
+
+/*脚部样式见common.css*/
+
+#aside{
+	width:35px;
+	height:108px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+aside{
+	width:35px;
+	height:108px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	display: block;
+}
+/*侧边栏样式见common.css*/
+#gdialog{
+	width: 523px;
+	height:287px;
+	margin-left: -180px;
+	margin-top: -75px;
+	color: #fff;
+	border: 2px solid #b6b6b6 ;
+	border-radius: 10px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    background:#fff;
+    display: none;
+    z-index: 9999999;
+}
+#gdialog .shop-top{
+	height: 40px;
+    padding-right: 17px;
+    background-color: #eaeaea;
+    border-radius: 10px 10px 0 0;
+}
+#gdialog .shop-top .cha{
+	width: 26px;
+	height:26px;
+	float: right;
+	padding-top: 7px;
+}
+#gdialog .shop-context{
+	background-color: #fff;
+	width: 100%;
+}
+#gdialog .shop-context .name{
+	padding: 28px 90px 0;
+    margin-bottom: 22px;
+}
+#gdialog .shop-context .name .suc{
+	    width: 60px;
+    height: 68px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat -8px -247px;
+    float: left;
+}
+#gdialog .shop-context .name .adds{
+	    font-size: 30px;
+    margin: 13px 0;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #555;
+    white-space: nowrap;
+    padding-left: 20px;
+    float: left;
+}
+#gdialog .shop-context .row2{
+	font-size: 18px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #999;
+    white-space: nowrap;
+    padding-left: 4px;
+    text-align: center;
+}
+#gdialog .shop-context .row2 em{
+	    color: #f6ab00;
+    font-style: normal;
+}
+#gdialog .shop-context .buy{
+	padding: 28px;
+    padding-bottom: 25px;
+}
+.shop-context .buy .fr-buy{
+	    margin-right: 11px;
+    margin-left: 70px;
+    float: left;
+}
+.shop-context .buy .fr-buy a{
+	width:147px;
+	height:40px;
+	border-radius:4px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	    color: #64a131;
+    background: #f5ffed;
+    border: 1px solid #64a131;
+}
+.shop-context .buy .fr-add a{
+	text-align: center;
+	line-height: 40px;
+	width:147px;
+	height:40px;
+	border-radius:4px;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	    color: #eff4ec;
+    background: #64a131;
+    border-color: #64a131;
+}
+#mask{
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    display: none;
+}
+
+/*弹出窗*/

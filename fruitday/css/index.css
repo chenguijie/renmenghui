@@ -1,0 +1,716 @@
+header{
+	width:100%;
+	height:151px;
+}
+header .nav{
+	width:100%;
+	height:30px;
+	background: #eee;
+}
+/*头部导航样式见common.css*/
+header .section{
+	width:100%;
+	height:120px;
+	margin:0 auto;
+	background: #FFFFFF;
+	z-index: 100;
+}
+header .float{
+	background: #fff;
+	width:100%;
+	height:70px;
+	line-height: 70px;
+	position: fixed;
+	top:0;
+	left: 0;
+	box-shadow: 0 0 10px #55A532;
+	display: none;
+	z-index: 99999;
+}
+header  .float .search{
+	height:50px;
+	line-height:50px;
+	padding: 10px;
+}
+header  .float .search .logo{
+	float: left;
+	height:100%;
+	width:17%;
+}
+header  .float .search .logo img{
+	width:100%;
+	height:100%;
+}
+header  .float .search .form{
+	float: left;
+	width:83%;
+	height:40px;
+	line-height: 40px;
+   text-align: center;
+   padding:10px 0 0 0;
+}
+header  .float .search .form p{
+	width:50%;
+	line-height: 36px;
+	height:36px;
+	display: block;
+	border: 2px solid #55A532;
+	margin: 0 auto;
+}
+header  .float .search .form input{
+    width: 74%;
+    height: 28px;
+    line-height: 28px;
+    border:none;
+    font-size: 14px;
+    float: left;
+}
+header  .float .search .form i{
+	font-size: 26px !important;
+}
+header  .float .search .form span{
+	display: inline-block;
+	width:13%;
+	height:100%;
+	float: left;
+}
+header  .float .search .form button{
+	width:13%;
+	height:100%;
+	background: #55A532;
+	color:#FFFFFF;
+	border:none;
+	float: left;
+}
+/*头部内容区样式见common.css*/
+
+#banner{
+	width:100%;
+	height:400px;
+	position: relative;
+}
+#banner .slideshow{
+	width:500%;
+	height:100%;
+	position: relative;
+}
+#banner .slideshow li{
+	height:100%;
+	width:20%;
+	position: absolute;
+	z-index: 1;
+}
+#banner .slideshow li a{	
+	position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#banner .slideshow li img{
+	height:100%;
+	width:100%;
+	float: left;
+}
+#banner .slide{
+	width:100%;
+	height:20px;
+	position: absolute;
+	bottom:20px;
+	left:45%;
+	z-index: 2;
+}
+#banner .slide .active{
+	background: #64a131;
+}
+#banner .slide li{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #64a131;
+    border-radius: 50%;
+    margin: 0 8px;
+    background: rgba(100,161,49,0.1);
+    cursor: pointer;
+}
+#banner input[type=button]{
+	width: 50px;
+	height: 40px;
+	background-color: hsla(0,0%,100%,.3);
+	border: none;
+	color: #fff;
+	position: absolute;
+	font-size: 30px;
+	top: 50%;
+	margin-top: -20px;
+	display: none;
+	z-index: 2;
+}
+#banner #right{
+	right: 0;
+}
+/*以上轮播图部分*/
+
+.show{
+	margin-top: 10px;
+    padding-bottom: 50px;
+}
+.show ul{
+	width:100%;
+}
+.show ul li{
+	width:23.5%;
+	height:126px;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+}
+.show ul li:nth-last-child(1){
+	margin-right:0;
+}
+.show ul li a{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.show ul li a img{
+	width:100%;
+	height:100%
+}
+.show li .misk{
+	position:absolute;
+	width:100%;
+	height:50px;
+	background-color: hsla(10,0%,50%,.4);
+	left: 0;
+	top:126px;
+	line-height: 50px;
+	text-align: center;
+	opacity: 0;
+}
+.show li .misk a{
+	display: inline-block;
+	color:#fff;
+	font-size: 16px;
+	width: 50%;
+	height:30px;
+}
+.show li .misk a i{
+	 color:#fff;
+	 padding-left: 10px;
+	font-size: 24px !important;
+}
+/*以上轮播图下的广告*/
+
+#seckill{
+	width:91%;
+	min-height: 307px;
+	background: #FFFFFF;
+	margin-bottom: 30px;
+}
+#seckill .seckill_name{
+	height:55px;
+	width:100%;
+	padding:0 10px;
+	position: relative;
+	background: #55A532;
+	border-radius:5px;
+}
+.seckill_name .seckill_name_left{
+	margin-left: 20px;
+	min-width:308px;
+	float:left;
+	padding:10px;
+}
+.seckill_name .seckill_name_left .watch{
+	display: inline-block;
+	float:left;
+	width:34px;
+	height:40px;
+	 background-image: url(//misc.360buyimg.com/mtd/pc/index/2.0.0/home/images/sprite_index@1x.png);
+    background-position: 0 -40px;
+}
+.seckill_name_left h3{
+	font-family: fzzhengheis-el-gbregular;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    color:#FFFFFF;
+    float:left;
+    margin:0 5px;
+}
+.seckill_name_left a{
+	display: block;
+    line-height: 40px;
+    height: 40px;
+   float:left;
+}
+.seckill_name_left a span{
+	font-family: fzzhengheis-el-gbregular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    color:#FFFFFF;
+    float:left;
+}
+
+.seckill_name_left a .dextrad{
+	    background-image: url(//misc.360buyimg.com/mtd/pc/index/home/images/sprite_index@1x.png);
+    background-position: -154px -40px;
+    background-size: 218px 188px;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+.seckill_name_right{
+	min-width:283px;
+	float:right;
+	line-height: 45px;
+    height: 45px;
+    padding: 5px;
+}
+.name_right_word{
+	float:left;
+	color: #FFFFFF;
+    font-size: 14px;
+}
+.seckill_name_right .date{
+	margin:0 5px ;
+	width:162px;
+	float:left;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
+.seckill_name_right .date li{
+	float:left;
+	width:20px;
+	height:45px;
+	line-height: 45px;
+	color:#fff;
+	font-size: 32px;
+}
+.seckill_name_right .date span{
+	float:left;
+	width:20px;
+	height:45px;
+	color:#fff;
+	line-height: 45px;
+	font-size: 36px;
+	display: inline-block;
+}
+.seckill_banner{
+	width:100%;
+	height: 260px;
+	padding:10px;
+	box-shadow: 0 0 5px #55A532;
+}
+.seckill_banner .seckill_left{
+	float: left;
+	width:975px;
+	height: 260px;
+	padding:10px 0;
+	overflow: hidden;
+	position: relative;
+}
+.seckill_banner .seckill_left #btn #btn1{
+	position: absolute;
+	top:100px;
+	left:5px;
+	border:none;
+	outline: none;
+	width:30px;
+	height:40px;
+	display: none;
+}
+.seckill_banner .seckill_left #btn #btn2{
+	position: absolute;
+	top:100px;
+	right:5px;
+	border:none;
+	outline: none;
+	width:30px;
+	height:40px;
+	display: none;
+}
+#seckill_left{
+	width:4875px;
+	position: absolute;
+	left: 0;
+	
+}
+#seckill_left li{
+    width: 166px;
+    height: 225px;
+    padding: 10px 14px 10px 15px;
+    border-right: 1px solid #e7e7e7;
+    font-size: 12px;
+    color:#CCCCCC;
+    position:relative;
+    float: left;
+    text-align: center;
+}
+#seckill_left li img{
+    width: 125px;
+    height: 125px;
+    margin:0 0 0 20px;
+}
+#seckill_left li .border_bottom{
+	display: block;
+    text-align: center;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/2.0.0/home/images/sprite_index@1x.png);
+    background-position: 0 0;
+    -moz-background-size: 218px 188px;
+    background-size: 218px 188px;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 20px;
+}
+#seckill_left li h3{
+    color: #999;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    text-align: left;
+    height: 32px;
+    line-height: 16px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 10px 0;
+    text-align: center;
+}
+#seckill_left li .price .present{
+	color:#333333;
+	font-size: 16px;
+}
+#seckill_left li .price .original{
+	font-size: 12px;
+	color: #999;
+	text-decoration: line-through;
+}
+.seckill_right{
+	float: left;
+	position: relative;
+	width: 15%;
+	height:237px;
+	margin:10px 0;
+}
+.seckill_right #seckill_right li{
+	width: 166px;
+	height:245px;
+	position: absolute;
+}
+.seckill_right ul li:nth-child(1){
+	display: block;
+}
+
+.seckill_right ul li img{
+	width: 100%;
+	height:100%;
+}
+#seckill_right_ball{
+	width:70px;
+	height:20px;
+	position: absolute;
+	bottom: -13px;
+	left:70px;
+	z-index: 9999;
+}
+#seckill_right_ball li{
+	width:10px;
+	height:10px;
+	float: left;
+	border-radius:50%;
+	display: block;	
+}
+#seckill_right_ball .ball_a{
+	background: red;
+	margin-right: 10px;	
+}
+#seckill_right_ball .ball_b{
+	background: #000000;
+}
+
+/*以上秒杀*/
+.fruit-kinds .name{   
+	padding: 15px 0 10px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 42px;
+    color: #333;
+    font-family: 'micosoft yahei';
+    border-top: 1px solid #ccc;
+    }
+.fruit-kinds .name img{   
+	float: left;
+	height:100%;
+    }
+.fruit-kinds .name a{   
+	float: right;
+    color: #333;
+}
+.fruit-kinds .good-list{
+	min-height: 580px;
+}
+.fruit-kinds #good-list1{
+	min-height: 855px;
+}
+.good-list ul li{
+	float: left;
+	width:19.1%;
+	height:273px;
+	margin: 0 5px 5px;
+	overflow: hidden;
+	
+}
+.good-list ul li a{
+	float: left;
+	width:220px;
+	height:220px;
+	overflow: hidden;
+}
+.good-list ul li a img{
+	width:100%;
+	height:100%;
+	transition: all 0.5s 0s;
+}
+.good-list img:hover{
+	transform: scale(1.05,1.05);
+}
+.intro{
+	width: 100%;
+	position: relative;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    line-height: 24px;
+ 	z-index: 1;
+}
+.img{
+	margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.intro i{	
+	position: absolute;
+    top: auto;
+    bottom: 16%;
+    right: 1%;
+    width: 20%;
+    height:50%;
+    font-size: 34px !important;
+    color:#f7b216;
+    z-index: 1;
+}
+.intro .good_name{
+	padding-left: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #555;
+    width:76%;
+}
+.intro .good_price{
+	width:76%;
+	margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999;
+}
+.intro .s-che{
+	position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 34px;
+    height: 34px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat;
+   background-position: -517px -243px;
+}
+/*以上商品展示部分*/
+
+#footer{
+	min-height:400px;
+	width:100%;
+}
+
+/*脚部样式见common.css*/
+/*左侧布局*/
+.lift {
+	left: 42.5px;
+	top: 125px;
+    margin-top: 25px;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    background-color: rgba(255,255,255,0.6);
+}
+/**/
+.lift_list{
+	 display: none;
+}
+.lift_item_first {
+    border-top: none;
+}
+.lift_item {
+    border-top: 1px solid #b1aaaa;
+    transition: background-color .1s;
+    width: 60px;
+}
+.lift_btn {
+    padding: 7px 5px;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 24px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+    }
+.lift_btn {
+    line-height: 14px;
+    text-align: center;
+    color: #000;
+    width: 50px;
+}
+.lift_item_on {
+    position: relative;
+    border-bottom: 1px solid #55A532;
+    margin-bottom: -1px;
+    border-color: #55A532;
+    background-color: #55A532;
+}
+/*以上楼梯*/
+#aside{
+	width:35px;
+	height:108px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+/*侧边栏样式见common.css*/
+#gdialog{
+	width: 523px;
+	height:287px;
+	margin-left: -180px;
+	margin-top: -75px;
+	color: #fff;
+	border: 2px solid #b6b6b6 ;
+	border-radius: 10px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    background:#fff;
+    display: none;
+    z-index: 9999999;
+}
+#gdialog .shop-top{
+	height: 40px;
+    padding-right: 17px;
+    background-color: #eaeaea;
+    border-radius: 10px 10px 0 0;
+}
+#gdialog .shop-top .cha{
+	width: 26px;
+	height:26px;
+	float: right;
+	padding-top: 7px;
+}
+#gdialog .shop-context{
+	background-color: #fff;
+	width: 100%;
+}
+#gdialog .shop-context .name{
+	padding: 28px 90px 0;
+    margin-bottom: 22px;
+}
+#gdialog .shop-context .name .suc{
+	    width: 60px;
+    height: 68px;
+    background: url("http://www.fruitday.com/images/common/icons.png") no-repeat -8px -247px;
+    float: left;
+}
+#gdialog .shop-context .name .adds{
+	    font-size: 30px;
+    margin: 13px 0;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #555;
+    white-space: nowrap;
+    padding-left: 20px;
+    float: left;
+}
+#gdialog .shop-context .row2{
+	font-size: 18px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color: #999;
+    white-space: nowrap;
+    padding-left: 4px;
+    text-align: center;
+}
+#gdialog .shop-context .row2 em{
+	    color: #f6ab00;
+    font-style: normal;
+}
+#gdialog .shop-context .buy{
+	padding: 28px;
+    padding-bottom: 25px;
+}
+.shop-context .buy .fr-buy{
+	    margin-right: 11px;
+    margin-left: 70px;
+    float: left;
+}
+.shop-context .buy .fr-buy a{
+	width:147px;
+	height:40px;
+	border-radius:4px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	    color: #64a131;
+    background: #f5ffed;
+    border: 1px solid #64a131;
+}
+.shop-context .buy .fr-add a{
+	text-align: center;
+	line-height: 40px;
+	width:147px;
+	height:40px;
+	border-radius:4px;
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	    color: #eff4ec;
+    background: #64a131;
+    border-color: #64a131;
+}
+#mask{
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    display: none;
+}
+
+/*弹出窗*/

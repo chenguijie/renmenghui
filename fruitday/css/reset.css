@@ -1,0 +1,27 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+.w-91{
+	width:91%;
+	margin: 0 auto;
+}
+
+fieldset, c{ border:none; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal;     font-family: 'microsoft yahei';}
+
+input{outline: none;}
+
+ul, ol ,li{ list-style:none; }
+
+body { color:#333;    font-family: "Hiragino Sans GB","Microsoft YaHei",sans-serif; font-size:12px; background:#fff; overflow-x:hidden;}
+
+a { color: #999; text-decoration:none; }
+
+a:hover, a:active, a:focus { color:#f6aa00; text-decoration:none; }
+
+.clearfix::after{content:"";overflow:hidden;clear:both;display:block;height:0;visibility:hidden;}
+
+@media screen and (max-width:1170px ) { #hide{display: none;}}
+@media screen and (min-width:1170px ) { #hide{display: block;}}
