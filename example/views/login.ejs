@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+</head>
+<style>
+    .form-box{
+        width: 50%;
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <!--引入公共头部-->
+    <%- include('./normal-header.ejs') %>
+
+    <div class="container">
+        <div class="panel panel-primary form-box">
+            <div class="panel-heading">
+                登陆：
+            </div>
+            <div class="panel-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="">用户名：</label>
+                        <input id="username" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">密码：</label>
+                        <input id="password" type="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">提交</button>
+                        <button type="reset" class="btn btn-default">重置</button>
+                        <a href="/users/register" class="btn btn-info">注册</a>
+                        <a href="/" class="btn btn-info">返回首页</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/jquery.cookie.js"></script>
+    <script>
+        
+        $("#login-form").submit(function(e){
+            e.preventDefault()
+            login();
+        })
+
+        function login(){
+
+           $.ajax({
+               url:"/users/login.do",
+            //    type:'get',
+               data:{
+                   username:$("#username").val(),
+                   password:$("#password").val(),
+               },
+               success:function(results){
+	               	if(results == 1){
+	               		alert("登录失败")
+	               	}else{
+	               		alert('登陆成功！')
+                        $.cookie('user_info', JSON.stringify(results),{ expires: 2,path:'/' });
+                        location.href="/";
+	               	}
+               		console.log(results)
+               }
+           })
+        }
+        
+    </script>
+</body>
+</html>
+
+
+
